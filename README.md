@@ -1,24 +1,10 @@
-# myamplify
 
-## Project setup
-```
-yarn install
-```
+# AWS
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+Recursos Amplify AWS
 
-### Compiles and minifies for production
-```
-yarn build
-```
 
-### Lints and fixes files
-```
-yarn lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 🛠 Recursos
+api(Graphql e Rest), auth(Cognito), Vue ui, DynamoDb, deploy
+

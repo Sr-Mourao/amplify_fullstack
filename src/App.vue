@@ -1,17 +1,13 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <authenticator>
+    <template v-slot="{ user, signOut }">
+      <h1>Hello {{ user.username }}!</h1>
+      <button @click="signOut">Sign Out</button>
+    </template>
+  </authenticator>
 </template>
-
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+<script setup>
+import { Authenticator } from "@aws-amplify/ui-vue";
 </script>
 
 <style>
