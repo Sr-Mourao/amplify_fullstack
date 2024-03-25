@@ -88,8 +88,8 @@ import { authAmplify } from "@/stores/auth";
 import { useRouter } from "vue-router";
 import { ref } from "vue";
 
-const username = ref("felipemourao6124@gmail.com");
-const password = ref("Rebecca487555*");
+const username = ref("");
+const password = ref("");
 const router = useRouter();
 
 const auth = authAmplify();
